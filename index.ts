@@ -23,8 +23,8 @@ export const otherPlayer = (player: Player) =>
 export const pointToString = (point: Point): string => {
   switch (point.kind) {
     case 'LOVE': return 'Love';
-    case 'FIFTEEN': return 'Fifteen';
-    case 'THIRTY': return 'Thirty';
+    case 'FIFTEEN': return '15';
+    case 'THIRTY': return '30';
   }
 };
 
